@@ -34,6 +34,9 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuCadastros = new javax.swing.JMenu();
         jMnuUsuarios = new javax.swing.JCheckBoxMenuItem();
         jMnuClientes = new javax.swing.JCheckBoxMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        produtos = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMnuSair = new javax.swing.JCheckBoxMenuItem();
         jMnuMovimento = new javax.swing.JMenu();
@@ -67,13 +70,26 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuClientes.setText("Cliente");
         jMnuClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
         jMnuCadastros.add(jMnuClientes);
+
+        jMenuItem1.setText("Fornecedor");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        jMnuCadastros.add(jMenuItem1);
+
+        produtos.setText("Produtos");
+        jMnuCadastros.add(produtos);
+
+        jMenuItem2.setText("Vendas");
+        jMnuCadastros.add(jMenuItem2);
         jMnuCadastros.add(jSeparator1);
 
         jMnuSair.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuSair.setMnemonic('s');
         jMnuSair.setSelected(true);
         jMnuSair.setText("Sair");
-        jMnuSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/exit.png"))); // NOI18N
         jMnuSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMnuSairActionPerformed(evt);
@@ -128,6 +144,10 @@ public class JFrmPrincipal extends javax.swing.JFrame {
               // TODO add your handling code here:
     }//GEN-LAST:event_jMnuCadastrosActionPerformed
 
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -165,6 +185,8 @@ public class JFrmPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenu jMnuCadastros;
     private javax.swing.JCheckBoxMenuItem jMnuClientes;
     private javax.swing.JCheckBoxMenuItem jMnuCompras;
@@ -173,5 +195,6 @@ public class JFrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JCheckBoxMenuItem jMnuUsuarios;
     private javax.swing.JCheckBoxMenuItem jMnuVendas;
     private javax.swing.JPopupMenu.Separator jSeparator1;
+    private javax.swing.JMenuItem produtos;
     // End of variables declaration//GEN-END:variables
 }
