@@ -57,7 +57,6 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuUsuarios.setMnemonic('u');
         jMnuUsuarios.setSelected(true);
         jMnuUsuarios.setText("Usuarios");
-        jMnuUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/usuario.png"))); // NOI18N
         jMnuUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMnuUsuariosActionPerformed(evt);
@@ -68,7 +67,6 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuClientes.setSelected(true);
         jMnuClientes.setText("Cliente");
-        jMnuClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
         jMnuCadastros.add(jMnuClientes);
 
         jMenuItem1.setText("Fornecedor");
@@ -132,7 +130,7 @@ public class JFrmPrincipal extends javax.swing.JFrame {
 
     private void jMnuUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuUsuariosActionPerformed
         // TODO add your handling code here:
-      JDlgMpvUsuarios jDlgMpvUsuarios = new JDlgMpvUsuarios(null, true);
+      JDlgRmrUsuarios jDlgMpvUsuarios = new JDlgRmrUsuarios(null, true);
       jDlgMpvUsuarios.setVisible(true);  
     }//GEN-LAST:event_jMnuUsuariosActionPerformed
 
