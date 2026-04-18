@@ -24,7 +24,7 @@ public class JDlgRmrUsuarios extends javax.swing.JDialog {
         
     }
     public void habilitar(){
-          jTxtCodigo.setEnabled(true);
+        jTxtCodigo.setEnabled(true);
         jTxtNome.setEnabled(true);
         jTxtApelido.setEnabled(true);
         jFmtCPF.setEnabled(true);
@@ -277,7 +277,7 @@ public class JDlgRmrUsuarios extends javax.swing.JDialog {
     }//GEN-LAST:event_jChbAtivoActionPerformed
 
     private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
-  jTxtCodigo.setEnabled(true);
+        jTxtCodigo.setEnabled(true);
         jTxtNome.setEnabled(true);
         jTxtApelido.setEnabled(true);
         jFmtCPF.setEnabled(true);
