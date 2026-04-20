@@ -28,9 +28,9 @@
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jTxtDataCadastro" alignment="1" pref="194" max="32767" attributes="0"/>
-                              <Component id="jLblEmail" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                              <Component id="jTxtEmail" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jTxtRmrCondicaoDePagamento" alignment="1" pref="194" max="32767" attributes="0"/>
+                              <Component id="jTxtRmrTipoDeFornecedor" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLblEmail" alignment="0" min="-2" pref="123" max="-2" attributes="0"/>
                           </Group>
                           <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
@@ -38,84 +38,81 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTxtTelefone" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTxtRmrLimiteDeCredito" alignment="0" max="32767" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="jLblTelefone" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <EmptySpace min="0" pref="581" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTxtMhcUF" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="jTxtRmrBanco" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
                                   <Component id="jLabel10" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="710" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTxtMhcSite" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                          <Component id="jTxtRmrIncricaoEstadual" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
                           <Component id="jLblDataNasc" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jTxtMhcCidade" min="-2" pref="201" max="-2" attributes="0"/>
+                              <Component id="jTxtRmrStatus" min="-2" pref="201" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="478" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jTxtMhcEndereco" min="-2" pref="252" max="-2" attributes="0"/>
+                      <Component id="jTxtRmrEndereco" min="-2" pref="252" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jTxtMhcCEP" min="-2" pref="100" max="-2" attributes="0"/>
+                      <Component id="jTxtRmrIncricaoMunicipal" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jTxtRmrAgencia" min="-2" pref="140" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jTxtRmrConta" min="-2" pref="151" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtMhcBairro" min="-2" pref="170" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtMhcComplemento" min="-2" pref="151" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtMhcNumero" max="32767" attributes="0"/>
+                      <Component id="jTxtRmrNumero" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jTxtRazaoSocial" min="-2" pref="299" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jTxtMhcNomeComercial" min="-2" pref="322" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLblNome" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="249" max="-2" attributes="0"/>
-                                      <Component id="jLblApelido" min="-2" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="jTxtRmrNome" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
+                                  <Component id="jLblNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLblApelido" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtRmrEmail" min="-2" pref="322" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLblCpf" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jFmtMhcCNPJ" alignment="0" min="-2" pref="221" max="-2" attributes="0"/>
+                                  <Component id="jFmtRmrCnpj" alignment="0" min="-2" pref="221" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLblSenha" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
-                              <Component id="jLblNivel" min="-2" pref="37" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
-                              <Component id="jLabel3" min="-2" pref="37" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
-                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLblNivel" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" pref="66" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" pref="44" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
                               <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="87" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -148,10 +145,10 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jTxtRazaoSocial" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrNome" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                      <Component id="jTxtMhcNomeComercial" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jFmtMhcCNPJ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTxtRmrEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jFmtRmrCnpj" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -161,8 +158,8 @@
               </Group>
               <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTxtMhcSite" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtMhcCidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrIncricaoEstadual" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrStatus" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -174,11 +171,11 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTxtMhcEndereco" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtMhcCEP" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtMhcBairro" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtMhcComplemento" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtMhcNumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrEndereco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrIncricaoMunicipal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrAgencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrNumero" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -187,21 +184,21 @@
               </Group>
               <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTxtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrTipoDeFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrLimiteDeCredito" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                       <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtMhcUF" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTxtRmrBanco" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtDataCadastro" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTxtRmrCondicaoDePagamento" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
@@ -213,7 +210,7 @@
                   <Component id="jBtnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jBtnPesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="136" max="32767" attributes="0"/>
+              <EmptySpace pref="115" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -221,19 +218,19 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLblNome">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Raz&#xe3;o Social"/>
+        <Property name="text" type="java.lang.String" value="Nome"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtRazaoSocial">
+    <Component class="javax.swing.JTextField" name="jTxtRmrNome">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblApelido">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Nome Comercial"/>
+        <Property name="text" type="java.lang.String" value="Email"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcNomeComercial">
+    <Component class="javax.swing.JTextField" name="jTxtRmrEmail">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtMhcNomeComercialActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtRmrEmailActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLblCpf">
@@ -241,86 +238,86 @@
         <Property name="text" type="java.lang.String" value="CNPJ"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JFormattedTextField" name="jFmtMhcCNPJ">
+    <Component class="javax.swing.JFormattedTextField" name="jFmtRmrCnpj">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Complemento"/>
+        <Property name="text" type="java.lang.String" value="Conta"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLblDataNasc">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Site"/>
+        <Property name="text" type="java.lang.String" value="Inscri&#xe7;&#xe3;o estadual"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcSite">
+    <Component class="javax.swing.JTextField" name="jTxtRmrIncricaoEstadual">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtMhcSiteActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtRmrIncricaoEstadualActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcComplemento">
+    <Component class="javax.swing.JTextField" name="jTxtRmrConta">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Bairro"/>
+        <Property name="text" type="java.lang.String" value="Agencia"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtDataCadastro">
+    <Component class="javax.swing.JTextField" name="jTxtRmrCondicaoDePagamento">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblNivel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="CEP"/>
+        <Property name="text" type="java.lang.String" value="Inscri&#xe7;&#xe3;o Municipal"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
-        <Property name="text" type="java.lang.String" value="N&#xfa;mero"/>
+        <Property name="text" type="java.lang.String" value="Numero"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcNumero">
+    <Component class="javax.swing.JTextField" name="jTxtRmrNumero">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblEmail">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Email"/>
+        <Property name="text" type="java.lang.String" value="Tipo De Fornecedor"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcEndereco">
+    <Component class="javax.swing.JTextField" name="jTxtRmrEndereco">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcCEP">
+    <Component class="javax.swing.JTextField" name="jTxtRmrIncricaoMunicipal">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblSenha">
       <Properties>
         <Property name="text" type="java.lang.String" value="Endere&#xe7;o"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcBairro">
+    <Component class="javax.swing.JTextField" name="jTxtRmrAgencia">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Cidade"/>
+        <Property name="text" type="java.lang.String" value="Status"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtEmail">
+    <Component class="javax.swing.JTextField" name="jTxtRmrTipoDeFornecedor">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcCidade">
+    <Component class="javax.swing.JTextField" name="jTxtRmrStatus">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblTelefone">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Telefone"/>
+        <Property name="text" type="java.lang.String" value="Limite De Cr&#xe9;dito"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
-        <Property name="text" type="java.lang.String" value="UF"/>
+        <Property name="text" type="java.lang.String" value="Banco"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtTelefone">
+    <Component class="javax.swing.JTextField" name="jTxtRmrLimiteDeCredito">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcUF">
+    <Component class="javax.swing.JTextField" name="jTxtRmrBanco">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Contrato"/>
+        <Property name="text" type="java.lang.String" value="Condi&#xe7;&#xe3;o De Pagamento"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jBtnAlterar">
