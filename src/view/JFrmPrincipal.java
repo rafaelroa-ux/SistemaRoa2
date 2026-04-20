@@ -30,12 +30,13 @@ public class JFrmPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jCheckBox1 = new javax.swing.JCheckBox();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMnuCadastros = new javax.swing.JMenu();
         jMnuUsuarios = new javax.swing.JCheckBoxMenuItem();
         jMnuClientes = new javax.swing.JCheckBoxMenuItem();
-        jMnuFornecedor = new javax.swing.JMenuItem();
-        jMnuProdutos = new javax.swing.JMenuItem();
+        jMnuFornecedor1 = new javax.swing.JCheckBoxMenuItem();
+        jMnuProduTos = new javax.swing.JCheckBoxMenuItem();
         jMnuVendas1 = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMnuSair = new javax.swing.JCheckBoxMenuItem();
@@ -44,6 +45,8 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuCompras = new javax.swing.JCheckBoxMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jCheckBox1.setText("jCheckBox1");
 
         jMnuCadastros.setMnemonic('c');
         jMnuCadastros.setText("Cadastro");
@@ -71,23 +74,37 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
         jMnuCadastros.add(jMnuClientes);
 
-        jMnuFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/images_1.jpg"))); // NOI18N
-        jMnuFornecedor.setMnemonic('f');
-        jMnuFornecedor.setText("Fornecedor");
-        jMnuFornecedor.addActionListener(new java.awt.event.ActionListener() {
+        jMnuFornecedor1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_T, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuFornecedor1.setSelected(true);
+        jMnuFornecedor1.setText("Fornecedor");
+        jMnuFornecedor1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/images.jpg"))); // NOI18N
+        jMnuFornecedor1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMnuFornecedorActionPerformed(evt);
+                jMnuFornecedor1ActionPerformed(evt);
             }
         });
-        jMnuCadastros.add(jMnuFornecedor);
+        jMnuCadastros.add(jMnuFornecedor1);
 
-        jMnuProdutos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/produto.png"))); // NOI18N
-        jMnuProdutos.setText("Produtos");
-        jMnuCadastros.add(jMnuProdutos);
+        jMnuProduTos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuProduTos.setSelected(true);
+        jMnuProduTos.setText("Produtos");
+        jMnuProduTos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/produto.png"))); // NOI18N
+        jMnuProduTos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuProduTosActionPerformed(evt);
+            }
+        });
+        jMnuCadastros.add(jMnuProduTos);
 
+        jMnuVendas1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuVendas1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/grupo.png"))); // NOI18N
+        jMnuVendas1.setMnemonic('a');
         jMnuVendas1.setText("Vendas");
+        jMnuVendas1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuVendas1ActionPerformed(evt);
+            }
+        });
         jMnuCadastros.add(jMnuVendas1);
         jMnuCadastros.add(jSeparator1);
 
@@ -111,6 +128,11 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMnuVendas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuVendas.setSelected(true);
         jMnuVendas.setText("Vendas");
+        jMnuVendas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuVendasActionPerformed(evt);
+            }
+        });
         jMnuMovimento.add(jMnuVendas);
 
         jMnuCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
@@ -150,11 +172,31 @@ dialogUsuarios.setVisible(true);
               // TODO add your handling code here:
     }//GEN-LAST:event_jMnuCadastrosActionPerformed
 
-    private void jMnuFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFornecedorActionPerformed
-
+    private void jMnuVendas1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuVendas1ActionPerformed
+    JDlgVendas dialogVendas = new JDlgVendas(null, true);
+  dialogVendas.setVisible(true);
 
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMnuFornecedorActionPerformed
+    }//GEN-LAST:event_jMnuVendas1ActionPerformed
+
+    private void jMnuFornecedor1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuFornecedor1ActionPerformed
+
+        JDlgfornecedor dialogfornecedor = new JDlgfornecedor(null, true);
+        dialogfornecedor.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMnuFornecedor1ActionPerformed
+
+    private void jMnuProduTosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuProduTosActionPerformed
+  JDlgProdutos dialogProdutos = new JDlgProdutos(null, true);
+        dialogProdutos.setVisible(true);  
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMnuProduTosActionPerformed
+
+    private void jMnuVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuVendasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMnuVendasActionPerformed
 
     /**
      * @param args the command line arguments
@@ -192,13 +234,14 @@ dialogUsuarios.setVisible(true);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu jMnuCadastros;
     private javax.swing.JCheckBoxMenuItem jMnuClientes;
     private javax.swing.JCheckBoxMenuItem jMnuCompras;
-    private javax.swing.JMenuItem jMnuFornecedor;
+    private javax.swing.JCheckBoxMenuItem jMnuFornecedor1;
     private javax.swing.JMenu jMnuMovimento;
-    private javax.swing.JMenuItem jMnuProdutos;
+    private javax.swing.JCheckBoxMenuItem jMnuProduTos;
     private javax.swing.JCheckBoxMenuItem jMnuSair;
     private javax.swing.JCheckBoxMenuItem jMnuUsuarios;
     private javax.swing.JCheckBoxMenuItem jMnuVendas;
