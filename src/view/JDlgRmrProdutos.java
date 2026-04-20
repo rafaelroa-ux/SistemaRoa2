@@ -10,14 +10,14 @@ import javax.swing.JOptionPane;
  *
  * @author RAFAEL
  */
-public class JDlgProdutos extends javax.swing.JDialog {
+public class JDlgRmrProdutos extends javax.swing.JDialog {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JDlgProdutos.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JDlgRmrProdutos.class.getName());
 
     /**
      * Creates new form JDlgProdutos
      */
-    public JDlgProdutos(java.awt.Frame parent, boolean modal) {
+    public JDlgRmrProdutos(java.awt.Frame parent, boolean modal) {
          super(parent, modal);
         initComponents();
         setTitle("cadastro de Produto");
@@ -355,7 +355,7 @@ public void desabilitar(){
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                JDlgProdutos dialog = new JDlgProdutos(new javax.swing.JFrame(), true);
+                JDlgRmrProdutos dialog = new JDlgRmrProdutos(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {

@@ -8,14 +8,14 @@ package view;
  *
  * @author RAFAEL
  */
-public class JDlgfornecedor extends javax.swing.JDialog {
+public class JDlgRmrfornecedor extends javax.swing.JDialog {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JDlgfornecedor.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JDlgRmrfornecedor.class.getName());
 
     /**
      * Creates new form JDlgfornecedor
      */
-    public JDlgfornecedor(java.awt.Frame parent, boolean modal) {
+    public JDlgRmrfornecedor(java.awt.Frame parent, boolean modal) {
  super(parent, modal);
         initComponents();
         setTitle("cadastro de Fornecedor");
@@ -414,7 +414,7 @@ public class JDlgfornecedor extends javax.swing.JDialog {
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                JDlgfornecedor dialog = new JDlgfornecedor(new javax.swing.JFrame(), true);
+                JDlgRmrfornecedor dialog = new JDlgRmrfornecedor(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {

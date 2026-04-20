@@ -8,17 +8,17 @@ package view;
  *
  * @author RAFAEL
  */
-public class JDlgClientes extends javax.swing.JDialog {
+public class JDlgRmrClientes extends javax.swing.JDialog {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JDlgClientes.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(JDlgRmrClientes.class.getName());
 
     /**
      * Creates new form JDlgClientes
      */
-    public JDlgClientes(java.awt.Frame parent, boolean modal) {
+    public JDlgRmrClientes(java.awt.Frame parent, boolean modal) {
        super(parent, modal);
         initComponents();
-        setTitle("cadastro de Produto");
+        setTitle("cadastro de Clientes");
         setLocationRelativeTo(null);
         desabilitar();
     }
@@ -417,7 +417,7 @@ public class JDlgClientes extends javax.swing.JDialog {
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                JDlgClientes dialog = new JDlgClientes(new javax.swing.JFrame(), true);
+                JDlgRmrClientes dialog = new JDlgRmrClientes(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {
