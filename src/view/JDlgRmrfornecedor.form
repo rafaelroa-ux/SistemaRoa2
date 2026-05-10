@@ -25,112 +25,105 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jTxtRmrCondicaoDePagamento" alignment="1" pref="194" max="32767" attributes="0"/>
-                              <Component id="jTxtRmrTipoDeFornecedor" alignment="1" max="32767" attributes="0"/>
-                              <Component id="jLblEmail" alignment="0" min="-2" pref="123" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLblSenha" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrEndereco" alignment="0" min="-2" pref="252" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jTxtRmrNumero" pref="618" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jTxtRmrTipoDeFornecedor" alignment="1" min="-2" pref="194" max="-2" attributes="0"/>
+                          <Component id="jLblEmail" alignment="0" min="-2" pref="123" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTxtRmrLimiteDeCredito" alignment="0" max="32767" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLblTelefone" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="581" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTxtRmrBanco" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
-                                  <Component id="jLabel10" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="0" pref="710" max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="jLblTelefone" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtRmrLimiteDeCredito" min="-2" pref="221" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="jBtnIncluir" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jBtnAlterar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jBtnexcluir" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBtnConfimar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBtnCancelar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jBtnPesquisar" min="-2" max="-2" attributes="0"/>
+                  </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTxtRmrIncricaoEstadual" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
-                          <Component id="jLblDataNasc" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
-                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="jTxtRmrStatus" min="-2" pref="201" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="jTxtRmrBanco" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="478" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jTxtRmrEndereco" min="-2" pref="252" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jTxtRmrIncricaoMunicipal" min="-2" pref="100" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                      <Component id="jTxtRmrAgencia" min="-2" pref="140" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jTxtRmrConta" min="-2" pref="151" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtRmrNumero" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTxtRmrNome" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
-                                  <Component id="jLblNome" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLblApelido" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTxtRmrEmail" min="-2" pref="322" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLblCpf" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jFmtRmrCnpj" alignment="0" min="-2" pref="221" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLblSenha" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
-                              <Component id="jLblNivel" min="-2" pref="103" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="jLabel3" min="-2" pref="66" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                          <Component id="jTxtRmrAgencia" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="jLabel7" min="-2" pref="44" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
-                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jTxtRmrConta" min="-2" pref="151" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTxtRmrCondicaoDePagamento" min="-2" pref="194" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="87" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLblDataNasc" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                          <Component id="jTxtRmrIncricaoEstadual" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLblNivel" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="jTxtRmrIncricaoMunicipal" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTxtRmrStatus" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLblCpf" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtRmrCnpj" min="-2" pref="221" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTxtRmrNome" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
+                          <Component id="jLblNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLblApelido" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtRmrEmail" min="-2" pref="322" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-              <Component id="jBtnIncluir" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jBtnAlterar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jBtnexcluir" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jBtnConfimar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jBtnCancelar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jBtnPesquisar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="122" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -141,40 +134,36 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLblApelido" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLblNome" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLblCpf" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jTxtRmrNome" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                      <Component id="jTxtRmrEmail" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jFmtRmrCnpj" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jTxtRmrEmail" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLblDataNasc" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLblDataNasc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLblCpf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLblNivel" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jTxtRmrIncricaoEstadual" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtRmrStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrStatus" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrIncricaoMunicipal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFmtRmrCnpj" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLblNivel" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLblSenha" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jTxtRmrEndereco" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtRmrIncricaoMunicipal" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtRmrAgencia" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtRmrConta" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jTxtRmrNumero" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -187,21 +176,21 @@
                   <Component id="jTxtRmrTipoDeFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jTxtRmrLimiteDeCredito" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtRmrBanco" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTxtRmrCondicaoDePagamento" min="-2" max="-2" attributes="0"/>
-                  </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtRmrBanco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrAgencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtRmrCondicaoDePagamento" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jBtnAlterar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jBtnIncluir" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -210,7 +199,7 @@
                   <Component id="jBtnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jBtnPesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="115" max="32767" attributes="0"/>
+              <EmptySpace pref="114" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
