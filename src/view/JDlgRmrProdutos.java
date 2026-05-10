@@ -133,21 +133,27 @@ public void desabilitar(){
 
         jTxtNome.addActionListener(this::jTxtNomeActionPerformed);
 
+        jBtnAlterar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar_1.png"))); // NOI18N
         jBtnAlterar1.setText("Alterar");
         jBtnAlterar1.addActionListener(this::jBtnAlterar1ActionPerformed);
 
+        jBtnIncluir1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
         jBtnIncluir1.setText("Incluir");
         jBtnIncluir1.addActionListener(this::jBtnIncluir1ActionPerformed);
 
+        jBtnexcluir1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir_1.png"))); // NOI18N
         jBtnexcluir1.setText("Excluir");
         jBtnexcluir1.addActionListener(this::jBtnexcluir1ActionPerformed);
 
+        jBtnConfimar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/confirmar.png"))); // NOI18N
         jBtnConfimar1.setText("Confirmar");
         jBtnConfimar1.addActionListener(this::jBtnConfimar1ActionPerformed);
 
+        jBtnCancelar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
         jBtnCancelar1.setText("Cancelar");
         jBtnCancelar1.addActionListener(this::jBtnCancelar1ActionPerformed);
 
+        jBtnPesquisar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
         jBtnPesquisar1.setText("Pesquisar");
         jBtnPesquisar1.addActionListener(this::jBtnPesquisar1ActionPerformed);
 
@@ -200,7 +206,7 @@ public void desabilitar(){
                 .addComponent(jBtnCancelar1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jBtnPesquisar1)
-                .addGap(0, 12, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
