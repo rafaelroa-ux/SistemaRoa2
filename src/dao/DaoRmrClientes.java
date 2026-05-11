@@ -2,6 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package dao;
 
 import bean.BeanRmrClientes;
@@ -18,18 +22,17 @@ public class DaoRmrClientes extends DaoAbstract {
 
         BeanRmrClientes cliente = (BeanRmrClientes) object;
 
-      try {
+        try {
 
-    Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
-    con = DriverManager.getConnection(
-        "jdbc:mysql://localhost:3306/sistemaroa?useTimezone=true&serverTimezone=UTC",
-        "root",
-        "rafaxit"
-    );
+            con = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/db_rafael_roa?useTimezone=true&serverTimezone=UTC",
+                    "root",
+                    "rafaxit"
+            );
 
-
-            String sql = "INSERT INTO clientes ("
+            String sql = "INSERT INTO rmr_clientes ("
                     + "rmr_nome,"
                     + "rmr_telefone,"
                     + "rmr_email,"
@@ -84,10 +87,11 @@ public class DaoRmrClientes extends DaoAbstract {
     public void delete(Object object) {
     }
 
-   @Override
+    @Override
     public Object list(int id) {
-    return null;
+        return null;
     }
+
     @Override
     public Object listAll() {
         return null;

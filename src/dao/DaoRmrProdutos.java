@@ -16,20 +16,19 @@ public class DaoRmrProdutos extends DaoAbstract {
     @Override
     public void insert(Object object) {
 
-        BeanRmrProdutos produto =
-                (BeanRmrProdutos) object;
+        BeanRmrProdutos produto = (BeanRmrProdutos) object;
 
         try {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/sistemaroger?useTimezone=true&serverTimezone=UTC",
-                "root",
-                "rafaxit"
+                    "jdbc:mysql://localhost:3306/db_rafael_roa?useTimezone=true&serverTimezone=UTC",
+                    "root",
+                    "rafaxit"
             );
 
-            String sql = "INSERT INTO produtos ("
+            String sql = "INSERT INTO rmr_produtos ("
                     + "rmr_nome,"
                     + "rmr_preco,"
                     + "rmr_marca,"
@@ -60,7 +59,7 @@ public class DaoRmrProdutos extends DaoAbstract {
         }
     }
 
- @Override
+    @Override
     public void update(Object object) {
     }
 

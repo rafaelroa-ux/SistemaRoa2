@@ -42,9 +42,11 @@ public class JFrmRmrLogin1 extends javax.swing.JFrame {
         pswSenha.setText("123");
         pswSenha.addActionListener(this::pswSenhaActionPerformed);
 
+        jBtnEntrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ok.png"))); // NOI18N
         jBtnEntrar.setText("Entrar");
         jBtnEntrar.addActionListener(this::jBtnEntrarActionPerformed);
 
+        jBtnSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
         jBtnSair.setText("Sair");
         jBtnSair.addActionListener(this::jBtnSairActionPerformed);
 

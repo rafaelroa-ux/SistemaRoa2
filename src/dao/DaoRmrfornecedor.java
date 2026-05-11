@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package dao;
 
 import bean.BeanRmrFornecedor;
@@ -20,12 +24,12 @@ public class DaoRmrFornecedor extends DaoAbstract {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/sistemaroa?useTimezone=true&serverTimezone=UTC",
-                "root",
-                "rafaxit"
+                    "jdbc:mysql://localhost:3306/db_rafael_roa?useTimezone=true&serverTimezone=UTC",
+                    "root",
+                    "rafaxit"
             );
 
-            String sql = "INSERT INTO fornecedores ("
+            String sql = "INSERT INTO rmr_fornecedor ("
                     + "rmr_nome,"
                     + "rmr_telefone,"
                     + "rmr_email,"

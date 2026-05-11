@@ -8,7 +8,7 @@
  */
 package dao;
 
-import bean.BeanRmrUsuarios;
+import bean.BeanRmrUsuarios1;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -20,37 +20,40 @@ public class DaoRmrUsuarios extends DaoAbstract {
     @Override
     public void insert(Object object) {
 
-        BeanRmrUsuarios usuario = (BeanRmrUsuarios) object;
+        BeanRmrUsuarios1 usuario = (BeanRmrUsuarios1) object;
 
-       try {
+        try {
 
-    Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
-    con = DriverManager.getConnection(
-        "jdbc:mysql://localhost:3306/sistemaroa?useTimezone=true&serverTimezone=UTC",
-        "root",
-        "rafaxit"
-    );
-
+            con = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/db_rafael_roa?useTimezone=true&serverTimezone=UTC",
+                    "root",
+                    "rafaxit"
+            );
 
             String sql = "INSERT INTO rmr_usuarios ("
-                    + "rmr_ativo,"
-                    + "rmr_email,"
-                    + "rmr_login,"
+                    + "rmr_id_usuarios,"
+                    + "rmr_nomel,"
+                    + "rmr_apelido,"
+                    + "rmr_cpf,"
+                    + "rmr_dataNascimento,"
                     + "rmr_nivel,"
-                    + "rmr_nome,"
-                    + "rmr_senha"
-                    + ") VALUES (?,?,?,?,?,?)";
+                    + "rmr_senha,"
+                    + "rmr_ativo"
+                    + ") VALUES (?,?,?,?,?,?,?,?)";
 
             PreparedStatement ps =
                     con.prepareStatement(sql);
 
-            ps.setString(1, usuario.getRmr_ativo());
-            ps.setString(2, usuario.getRmr_email());
-            ps.setString(3, usuario.getRmr_login());
-            ps.setString(4, usuario.getRmr_nivel());
-            ps.setString(5, usuario.getRmr_nome());
-            ps.setString(6, usuario.getRmr_senha());
+            ps.setInt(1, usuario.getRmr_id_usuarios());
+            ps.setString(2, usuario.getRmr_nomel());
+            ps.setString(3, usuario.getRmr_apelido());
+            ps.setString(4, usuario.getRmr_cpf());
+            ps.setString(5, usuario.getRmr_dataNascimento());
+            ps.setInt(6, usuario.getRmr_nivel());
+            ps.setString(7, usuario.getRmr_senha());
+            ps.setString(8, usuario.getRmr_ativo());
 
             ps.execute();
 

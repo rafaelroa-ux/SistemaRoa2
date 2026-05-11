@@ -377,7 +377,7 @@ public class JDlgRmrClientes extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelarActionPerformed
 
     private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
-        JOptionPane.showInputDialog(null,"Entre com o código");
+        javax.swing.JOptionPane.showInputDialog(null, "Entre com o código");
         // TODO add your handling code here:
     }//GEN-LAST:event_jBtnPesquisarActionPerformed
 
