@@ -22,15 +22,16 @@ public class DaoRmrUsuarios extends DaoAbstract {
 
         BeanRmrUsuarios usuario = (BeanRmrUsuarios) object;
 
-        try {
+       try {
 
-            Class.forName("com.mysql.cj.jdbc.Driver");
+    Class.forName("com.mysql.cj.jdbc.Driver");
 
-            con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/sistemaroger?useTimezone=true&serverTimezone=UTC",
-                "root",
-                "75821021rR!2020"
-            );
+    con = DriverManager.getConnection(
+        "jdbc:mysql://localhost:3306/sistemaroa?useTimezone=true&serverTimezone=UTC",
+        "root",
+        "rafaxit"
+    );
+
 
             String sql = "INSERT INTO rmr_usuarios ("
                     + "rmr_ativo,"
