@@ -14,8 +14,8 @@ public class conexao {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
        String url = "jdbc:mysql://localhost:3306/db_rafael_roa";
-String usuario = "root";
-String senha = "rafaxit";
+       String usuario = "root";
+       String senha = "rafaxit";
 
             con = DriverManager.getConnection(url, usuario, senha);
 
