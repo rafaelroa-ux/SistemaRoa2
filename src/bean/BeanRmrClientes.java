@@ -4,7 +4,6 @@
  */
 package bean;
 
-
 public class BeanRmrClientes {
 
     private int rmr_id_cliente;

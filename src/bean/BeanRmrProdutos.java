@@ -4,10 +4,6 @@
  */
 package bean;
 
-/**
- *
- * @author Rafael
- */
 public class BeanRmrProdutos {
 
     private int rmr_id_produto;
